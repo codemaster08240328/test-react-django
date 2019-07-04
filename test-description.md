@@ -32,7 +32,7 @@ class CompanyListViewSet(ModelViewSet):
 router.register(r'companies', ContactListViewCompanyListViewSetSet, base_name='company')
 ```
 
- -- note -- if you dunno django, then go forward with node.js with using Sequelize. But django would be preferred. 
+ > -- note -- if you dunno django, then go forward with node.js with using Sequelize. But django would be preferred. 
 
 ## Requirements / Tasks
 
