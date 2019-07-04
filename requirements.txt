@@ -13,3 +13,4 @@ wrapt==1.11.2
 
 # Django
 Django==2.2.3
+djangorestframework==3.9.4
