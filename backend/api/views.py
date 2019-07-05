@@ -67,7 +67,7 @@ class UpdateHeadquarter(APIView):
     def put(self, request, pk, format=None):
         '''
         REQUEST_METHOD: PUT,
-        ENDPOINT: /api/v1/company/<company_id>
+        ENDPOINT: /api/v1/company/<company_id>/
         REQUEST_PARAM:
         {
             "office_id": 1
@@ -98,7 +98,7 @@ class CreateCompanyOffice(APIView):
     def post(self, request):
         '''
         METHOD: POST
-        ENDPOINT: /api/v1/add_company
+        ENDPOINT: /api/v1/add_company/
         REQEST PARAM:
         {
             "name": "my another company",
