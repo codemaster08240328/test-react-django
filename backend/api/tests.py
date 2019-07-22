@@ -1,3 +1,6 @@
 from django.test import TestCase
 
-# Create your tests here.
+class API_TEST(TestCase):
+    
+    def setUp(self):
+        test = ''
